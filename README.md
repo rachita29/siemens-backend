@@ -1,5 +1,6 @@
-school-exam-backend
+# SchoolExamApp
 ====================
+
 ## Database Design (ERD)
 1. User Collection
 Fields: name, email, password, role
