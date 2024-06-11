@@ -25,13 +25,18 @@ Fields: classId, text, options
 4. POST /api/teachers/upload/: Upload a question bank.
 5. GET /api/students/take-exam/: Simulate taking an exam.
 6. POST /api/students/generate-pdf: Generate a PDF for exam results.
+7. GET /api/students/classes/: Get classes
 
 ## Setup Instructions
 1. Backend Setup
 
-* Navigate to the backend directory.
+* Navigate to the backend directory
 * Install dependencies: npm install
 * Start the server: node app.js
+* Server is listening at port 3000
 
 2. MongoDB Setup
-* Install MongoDB and start the service.
+
+* Install MongoDB
+* Create database folder school-exam-db
+* Use command 'mongod --dbpath /path/to/school-exam-db --port 27017' for running mongoDb server
